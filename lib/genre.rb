@@ -1,7 +1,7 @@
 require 'pry'
 
 class Genre 
-  attr_reader :name 
+  attr_accessor :name 
   
   @@all = []
   
