@@ -5,4 +5,7 @@ class Patient
     @name = name 
   end 
   
+  def self.all 
+    
+  
 end 
