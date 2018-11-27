@@ -1,4 +1,6 @@
 class Artist 
+  attr_reader :name
+  
   @@all = []
   
   def self.all 
